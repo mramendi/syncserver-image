@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Installing certificate "$2
+curl $1/$2 > /etc/pki/ca-trust/source/anchors/$2
+update-ca-trust

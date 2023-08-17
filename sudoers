@@ -1,0 +1,2 @@
+ALL ALL=NOPASSWD: /usr/local/bin/install-cert
+ALL ALL=NOPASSWD: /usr/bin/podman
