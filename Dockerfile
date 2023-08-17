@@ -15,9 +15,6 @@ COPY aura.tar.gz /home/syncserver
 COPY install-cert /usr/local/bin
 COPY sudoers /etc
 
-# test to see if the build has happened
-COPY sudoers /home/syncserver
-
 # Run commands as user - this also makes syncserver the default user for CI
 USER syncserver
 
